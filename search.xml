@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>设置友链</title>
+      <link href="/she_zhi_you_lian/"/>
+      <url>/she_zhi_you_lian/</url>
+      
+        <content type="html"><![CDATA[<h5 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h5><h5 id="设置友链"><a href="#设置友链" class="headerlink" title="设置友链"></a>设置友链</h5><p><code>friends</code> 页是用来展示<strong>友情连接</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>friends/index.md</code> 文件，那么你就需要新建一个，命令如下：</p><pre class="line-numbers language-bash"><code class="language-bash">hexo new page <span class="token string">"friends"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>编辑你刚刚新建的页面文件 <code>/source/friends/index.md</code>，至少需要以下内容：</p><pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token punctuation">---</span><span class="token key atrule">title</span><span class="token punctuation">:</span> friends<span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2018-12-12 21:25:30</span><span class="token key atrule">type</span><span class="token punctuation">:</span> <span class="token string">"friends"</span><span class="token key atrule">layout</span><span class="token punctuation">:</span> <span class="token string">"friends"</span><span class="token punctuation">---</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>同时，在你的博客 <code>source</code> 目录下新建 <code>_data</code> 目录，在 <code>_data</code> 目录中新建 <code>friends.json</code> 文件，文件内容如下所示：</p><pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">[</span>    <span class="token punctuation">{</span>        <span class="token property">"avatar"</span><span class="token operator">:</span> <span class="token string">"/medias/avatars/hwsun.jpg"</span><span class="token punctuation">,</span>        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"里予の博客"</span><span class="token punctuation">,</span>        <span class="token property">"introduction"</span><span class="token operator">:</span> <span class="token string">"ThirdHill个人博客"</span><span class="token punctuation">,</span>        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://thirdhill.top"</span><span class="token punctuation">,</span>        <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"偷看一下"</span>    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"书栈网"</span><span class="token punctuation">,</span>        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://www.bookstack.cn/"</span><span class="token punctuation">,</span>        <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"访问主页"</span><span class="token punctuation">,</span>        <span class="token property">"introduction"</span><span class="token operator">:</span> <span class="token string">"IT程序员互联网开源编程书籍阅读分享"</span><span class="token punctuation">,</span>        <span class="token property">"avatar"</span><span class="token operator">:</span> <span class="token string">"/medias/favicon.ico"</span>    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"闪烁之狐"</span><span class="token punctuation">,</span>        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://blinkfox.github.io"</span><span class="token punctuation">,</span>        <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"前去学习"</span><span class="token punctuation">,</span>        <span class="token property">"introduction"</span><span class="token operator">:</span> <span class="token string">"闪烁之狐大佬做的hexo主题很棒，人也比较好！"</span><span class="token punctuation">,</span>        <span class="token property">"avatar"</span><span class="token operator">:</span> <span class="token string">"https://blinkfox.github.io/medias/avatar.jpg"</span>    <span class="token punctuation">}</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+          <category> mastery主题友链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新建文章模板修改</title>
+      <link href="/xin_jian_wen_zhang_mo_ban_xiu_gai/"/>
+      <url>/xin_jian_wen_zhang_mo_ban_xiu_gai/</url>
+      
+        <content type="html"><![CDATA[<h5 id="新建文章模板修改"><a href="#新建文章模板修改" class="headerlink" title="新建文章模板修改"></a>新建文章模板修改</h5><p>首先为了新建文章方便，我们可以修改一下文章模板，建议将<code>/scaffolds/post.md</code>修改为如下代码：</p><pre class="line-numbers language-json"><code class="language-json">---title<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">{</span> title <span class="token punctuation">}</span><span class="token punctuation">}</span>date<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">{</span> date <span class="token punctuation">}</span><span class="token punctuation">}</span>author<span class="token operator">:</span> img<span class="token operator">:</span> coverImg<span class="token operator">:</span> top<span class="token operator">:</span> <span class="token boolean">false</span>cover<span class="token operator">:</span> <span class="token boolean">false</span>toc<span class="token operator">:</span> <span class="token boolean">true</span>mathjax<span class="token operator">:</span> <span class="token boolean">false</span>password<span class="token operator">:</span>summary<span class="token operator">:</span>tags<span class="token operator">:</span>categories<span class="token operator">:</span>---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>这样新建文章后 一些<code>Front-matter</code>参数不用你自己补充了，修改对应信息就可以了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+          <category> mastery主题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>添加博客动态标签</title>
+      <link href="/tian_jia_bo_ke_dong_tai_biao_qian/"/>
+      <url>/tian_jia_bo_ke_dong_tai_biao_qian/</url>
+      
+        <content type="html"><![CDATA[<h5 id="添加博客动态标签"><a href="#添加博客动态标签" class="headerlink" title="添加博客动态标签"></a>添加博客动态标签</h5><p>打开博客主题文件夹，路径：<code>themes/matery/layout/layout.ejs</code>，在对应位置添加如下代码：</p><pre class="line-numbers language-js"><code class="language-js"><span class="token operator">&lt;</span>script type<span class="token operator">=</span><span class="token string">"text/javascript"</span><span class="token operator">></span>    <span class="token keyword">var</span> OriginTitile <span class="token operator">=</span> document<span class="token punctuation">.</span>title<span class="token punctuation">,</span>        st<span class="token punctuation">;</span>    document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"visibilitychange"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        document<span class="token punctuation">.</span>hidden <span class="token operator">?</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>title <span class="token operator">=</span> <span class="token string">"看不见我🙈~看不见我🙈~"</span><span class="token punctuation">,</span> <span class="token function">clearTimeout</span><span class="token punctuation">(</span>st<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>title <span class="token operator">=</span>            <span class="token string">"(๑•̀ㅂ•́) ✧被发现了～"</span><span class="token punctuation">,</span> st <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>                document<span class="token punctuation">.</span>title <span class="token operator">=</span> OriginTitile            <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">3e3</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>然后 <code>hexo clean</code> &amp;&amp; <code>hexo g</code> 即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+          <category> mastery主题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
